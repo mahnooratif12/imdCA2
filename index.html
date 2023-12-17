@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="buttons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>My Portfolio</title>
+    
+</head>
+<nav class="nav nav-bar nav-bar-text-dark justify-content-center sticky-top" >
+    <div class="container-fluid">
+        <ul class="nav-bar nav justify-content-center ">
+            <li class="nav-item">
+                <a class="nav-link text-dark " href="#profile">Home</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                <a class="nav-link text-dark dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">Education</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#LC">LC</a></li>
+                    <li><a class="dropdown-item" href="#BS-CS">BA Honours</a></li>
+                </ul>
+            </li>
+            
+            <li class="nav- item">
+                <a class="nav-link text-dark" href="#Project">Project</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#Work-Experience">Work-Experience</a>
+            </li>
+            
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#Hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#Contact">Contact Me</a>
+            </li>
+               
+        </ul>
+
+    </div>
+</nav>
+
+<body class="bg-dark text-dark container-fluid p-2 text-dark">
+  <div>
+    <h1 class="text-center text-white"> My Portfolio </h1>
+    
+    <div class="justify-content-center" id="profile">
+        <div class="card-img ">
+            <img src="img/profile .jpeg" alt="profile img" class="rounded-circle" width="500" height="600">
+            <div class="text-white card card-body bg-secondary mb-0">
+              <p class="card-text">My name is Mahnoor Atif, I am currently in last year of Computing and seeking for internship. I have done numerous kinds of projects in these years of my collage and looking forward to work with you. I always try to complete my task in time and with high level of quality. I like to make friends and help them with their work whenever they need me (classmates or groups). My top 5 skills where I am good are as follows Java, python, JavaScript, Html5 and CSS. You will get to me futher in the following site. If have any question you can contact me</p>
+            </div> 
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+              Contact Me
+            </button>
+            
+          
+            <div class="modal" id="myModal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+            
+                  
+                  <div class="modal-header">
+                    <h4 class="modal-title">Contact Me</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+            
+                  
+                  <div class="modal-body">
+                      <h3 class="text-center text-dark">Contact Infromation</h3>
+                      <li>
+                          <a href="https://www.linkedin.com/in/mahnoor-atif/">LinkedIN</a>
+                      </li>
+                      <li>
+                        <a href="mahnooratif12 (Mahnoor Atif) (github.com)">GitHub</a>
+                      </li>
+                      <li>
+                          <a href="mailto:mahnur.atif@gmail.com" class="">Email address: mahnur.atif@gmail.com</a>
+                      </li>
+                  </div>
+            
+                  
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                  </div>
+            
+                </div>
+              </div>
+            </div>     
+        </div>
+       
+           
+    </div>
+                     </br>
+    <div id="LC">
+          <h2 class="text-center text-white">Leaving Cert Result</h2>
+          
+          <h3 class="text-white">School Name: Kishoge Communtiy Collage</h3>
+          <h3 class="text-white">Graduated: 2020</h3>
+          <div class="container bg-secondary text-whites rounded-circle">
+              <div class="image">
+              <img  src="img/kishoge-cc.jpg" alt="School-img">
+              </div>
+              
+              <div class="text text-white ">
+                  <h4 class="">Subjects:</h4>
+                  <ul>
+                      <li>Mathematics - O1</li>
+                      <li>English - O3</li>
+                      <li>Geography - H4</li>
+                      <li>Home Economics - H4</li>
+                      <li>Spanish - O4</li>
+                      <li>Economics - H4</li>
+                      
+                  </ul>
+              </div>
+          </div> 
+    </div>
+    
+    </br>
+    <div id="BS-CS">
+      <h2 class="text-center text-white">Computer Science Bachelor Honours</h2>
+
+      <div id="accordion">
+
+        <div class="card">
+          <div class="card-header bg-secondary">
+            <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne">
+              1st Year 
+              
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+            <div class="card-body">
+                <h6 class=>Semeter 1</h6>
+            <li>Software Development 1</li> 
+            <li>Computer Architecture </li>
+            <li>Visual Design & User Experience</li>
+            <li>Discrete Maths</li>
+            <li>Critical Skills Development</li>
+            <li>Bussiness information</li>
+                
+            <h6 class=>Semeter 2</h6>
+            <li>Software development 2</li>
+            <li>Systems Analysis</li>
+            <li>Social Media Communications</li>
+            <li>Statistics</li>
+            <li>Database Fundamentals</li>
+            <li> Operating System </li>
+        </div>
+            </div>
+          </div>
+        </div>
+        <div id="accordion">
+
+          <div class="card">
+            <div class="card-header bg-secondary">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                2nd Year
+              </a>
+            </div>
+            <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+              <div class="card-body">
+                  <h6>Semeter 3</h6>
+                  <li>Advance Database Technologies</li>
+                  <li>Discrete Maths 2</li>
+                  <li>Client side Web Development</li>
+                  <li>Software Development 3</li>
+                  <li>Software Quality & Testing</li>
+                  <li>Information Security</li>
+              
+                  <h6>Semeter 4</h6>
+                  <li>Project</li>
+                  <li>Routing & Switching</li>
+                  <li>Management Science</li>
+                  <li>Database Admin & Analysis</li>
+                  <li>Informaton Security</li>
+                  <li>Network Fundementals</li>
+          </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card">
+            <div class="card-header bg-secondary">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+                3rd Year
+              </a>
+            </div>
+            <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                  <h6>Semeter 5</h6>
+                  <li>Experiental Learning</li>
+                  <li>Server-Side Web Development</li>
+                  <li>Operating System</li>
+                  <li>Innovation and Enterpreneurshp</li>
+                  <li>Big Data Technologies</li>
+                  <li>Data Structures & Algorithms</li>
+              
+                  <h6>Semeter 6</h6>
+                  <li>Experiental Learning</li>
+              </div>
+            </div>
+          </div>
+    
+          <div class="card">
+            <div class="card-header bg-secondary">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+                4th Year
+              </a>
+            </div>
+            <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+              <div class="card-body">
+                  <h6>Semeter 7</h6>
+                  <li>Enterprise App development</li>
+                  <li>Infroamtion Mangment</li>
+                  <li>Interactive Media & Visual Design </li>
+                  <li>Enterprise App Articture</li>
+                  <li>DeveOps</li>
+                  <li>Project</li>
+                  <h6>Semeter 8</h6>
+                  <li>Enterprise Application Development 2</li>
+                  <li>Computational Theory </li>
+                  <li>Interactive Desgin and Visualization</li>
+                  <li>Could Architecture</li>
+                  <li>Project </li>
+              </div>
+            </div>
+          </div>
+        
+    </div>
+    </br>  
+    <div id="Project">
+      <h3 class="text-center text-white">Project</h3> 
+      <div class="card card-body bg-secondary padding">
+          
+          <h6 class="text-dark">Hackton Project</h6>
+              <p class="text-dark" id="t-right">The following video is about the Hackton project that I participate in Dell. The goal of our project was to solve the problem senior employee was facing. The problem there were facing was that there were unable to measure the sucess rate of employees cousre. So they wanted us to come up with solution to solve the following. The idea we came up was that we thought we could develop AI tool in teams so that when were employees have issue they can go to AI and can solve it. As you can in the following video. In this project I was assiged to make the prototype of the application and record it. Our project was select for the final, we were the top four but lost the competition at the end but we were still proud of our selves as it gave us the chance to learn new skills as a individual person. </p>
+              <img src="img/Hackton Cert.png" alt="Hackton Project Cert" class="justify-content-center" width="400" height="300">
+              <br>
+              <iframe src="img/Media1.mp4" frameborder="0" alt="Hackton Project" width="1200" height="900" class="embed-responsive-item image"></iframe>
+      </div>
+    </div>
+    </br>
+    <div id="Work-Experience">
+      <h3 class="text-center text-white">Work-Experience</h3>
+        <div class="row">
+          <div class="col-sm-3 p-2 bg-secondary text-white">Febuary(2023) - August(2023)</div>
+          <div class="col-sm-3 p-2 bg-secondary text-white">Junior Web designer </div>
+          <div class="col-sm-3 p-2 bg-secondary text-white">Dell EMC Cherrywood  </div>
+          <div class="col-sm-3 p-2 bg-secondary text-white"><img src="img/dell .png" alt=""></div> 
+        </div>
+        <div class="row">
+          <div class="col-sm-3 p-2 bg-secondary text-white">October(2017) - November(2017)</div>
+          <div class="col-sm-3 p-2 bg-secondary text-white">Early Childhood Teaching Assistant (Intern)  </div>
+          <div class="col-sm-3 p-2 bg-secondary text-white">Sweetpea Preschool, Lucan, Dublin </div>
+          <div class="col-sm-3 p-2 bg-secondary text-white"><img src="img/school.jpg" alt=""></div> 
+        </div>
+
+
+        </div>
+    </div>
+    </br>
+    <div id="Hobbies">
+      <h3 class="text-white text-center">Hobbies</h3>
+
+      <div class="card card-body bg-secondary">
+        <div class="row">
+          <div class="col-sm-3 p-2 bg-secondary text-dark">I like to listen music at my free time as it also helps to relive my stress as well</div>
+          <div class="col-sm-3 p-2 bg-secondary text-white"><img src="img/music.jpg" alt=""></div> 
+        </div>>
+        <div class="row">
+          <div class="col-sm-3 p-2 bg-secondary text-dark">In sunny weather I like to play badminton with my friends and family as it's fun.</div>
+          <div class="col-sm-3 p-2 bg-secondary text-white"><img src="img/badminton.png" alt=""></div> 
+        </div>
+        <div class="row">
+          <div class="col-sm-3 p-2 bg-secondary text-dark">I like to cook and bake a lot in my free time because it make me relax and funful as well.</div>
+          <div class="col-sm-3 p-2 bg-secondary text-white"><img src="img/cooking.png" alt=""></div> 
+        </div>>
+          
+      </div>
+    </div>
+    <div id="Contact" class="">
+        <h3 class="text-center text-white">Contact Infromation</h3>
+        
+        <li>
+            <a href="https://www.linkedin.com/in/mahnoor-atif/">LinkedIN</a>
+        </li>
+        <li>
+          <a href="mahnooratif12 (Mahnoor Atif) (github.com)">GitHub</a>
+        </li>
+        <li>
+            <a href="mailto:mahnur.atif@gmail.com" class="">Email address: mahnur.atif@gmail.com</a>
+        </li>
+    </div>
+  </br>
+  </div> 
+    <div class="">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aboutmodal">
+        Bootstrap Info
+      </button>
+    </div>
+ <div class="modal" id="aboutmodal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        
+        <div class="modal-header">
+          <h4 class="modal-title text-center text-dark">Bootstrap</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        
+        <div class="modal-body">
+            <p>Bootstrap usage in CA-2 is as follows:</p>
+            <div class="text-dark">
+              <li>Home: changed the background color, card image and backgroud color</li>
+              <li>Education: used container in lc section and in BA section I used Collapse to make the site Interactive for users </li>
+              <li>Project: add the images and use card body still it does not look the way I wanted but still it shows a little content</li>
+              <li>Work-Experience: used Grid system to align the context and make is appealing to users</li>
+              <li>Hobbies: I used griding again aswell to show the content in row and columns  </li>
+              <li>Contact Me: did not use any bootstrap here! </li>
+
+              <p>if you have any question please let me know. </p>
+            </div>
+        </div>
+  
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>  
+    
+</body>
+</html>

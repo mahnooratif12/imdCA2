@@ -1,0 +1,79 @@
+.body {
+    background-color:black;
+    
+}
+.nav{
+    background-color:bisque;
+    text-align: center;
+    
+}
+.card-body{
+ box-sizing: border-box;}
+
+.modal-header{
+  background-color: gray;
+  color: white;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  img {
+    max-width: 95%;
+    max-height:70%;
+    float: left;
+    border-collapse: whitesmoke;
+  }
+  
+ .text {
+    font-size: 20px;
+    padding-left: 2px;
+    float: left;
+    text-decoration: black;
+  }
+
+  .card-img{
+    float: right;
+  }
+.card{
+    padding-right: 100px;
+}
+  .rounded-circle{
+    padding-top: 10px;
+    padding-left: 10px;
+    float: right;
+  }
+
+  #t-right{
+    float: left;
+  }
+
+#card-body{
+    justify-content: center;
+}
